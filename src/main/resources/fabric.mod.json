@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "cleaned-minecraft",
+	"version": "${version}",
+	"name": "Cleaned Minecraft",
+	"description": "No monsters, enchantments, potion brewing, nether and this mod adds male and female gender system for animals and villagers",
+	"authors": [
+		"AnecFox"
+	],
+	"contact": {
+		"email": "anecfox@gmail.com"
+	},
+	"license": "MIT",
+	"icon": "assets/cleaned-minecraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.anecfox.CleanedMinecraft"
+		]
+	},
+	"mixins": [
+		"cleaned-minecraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

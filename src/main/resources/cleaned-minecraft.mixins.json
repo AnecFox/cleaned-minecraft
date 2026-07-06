@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "package": "com.anecfox.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "AgeableMobTickMixin",
+    "AnimalBreedGoalFilterMixin",
+    "AnimalBreedMixin",
+    "ChickenEggBlockingMixin",
+    "CreativeMenuTransformerMixin",
+    "IronGolemSpydersAndSilverfishIgnoreMixin",
+    "MobAccessor",
+    "MobFilterMixin",
+    "PlayerInventoryFilterMixin",
+    "ServerLevelBirthMixin",
+    "SilverfishPeacefulMixin",
+    "SpiderPeacefulMixin",
+    "VillagerBreedMixin",
+    "VillagerSpawnBabyToMatherMixin",
+    "PolarBearPeacefulMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
