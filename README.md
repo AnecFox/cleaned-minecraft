@@ -26,7 +26,7 @@ A Fabric mod that redefines vanilla survival by removing hostile elements while 
 ### ➕ New Additions
 | Feature | Description |
 | :--- | :--- |
-| **🐄 Gender System** | Animals and villagers now have male and female variants. **Right-click** any creature with a **compass** to check its gender. |
+| **🐄 Gender System** | Animals and villagers now have male and female variants (But the difference in textures has not been made yet). **Right-click** any creature with a **compass** to check its gender. |
 | **💎 Ancient Debris** | Now found in the **Overworld**! Mine it in hot biomes (Desert, Badlands, Savanna) at **Y: -40 to -60**. |
 | **⬆️ Netherite Upgrade** | The Netherite Upgrade Template can be found via **archaeology** in **suspicious sand** inside Desert Pyramids. Use it to upgrade **tools** (pickaxe, axe, shovel, hoe). |
 | **🕷️ String Crafting** | Craft **4 string** from 1 cobweb. |
