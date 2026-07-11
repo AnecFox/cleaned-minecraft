@@ -8,7 +8,7 @@ A Fabric mod that redefines vanilla survival by removing hostile elements while 
 
 ## 🛠️ Technical Details
 - **Minecraft version:** `26.2` (currently latest stable release)
-- **Fabric API:** `0.154.1+26.2`
+- **Fabric API:** `0.154.2+26.2`
 - **Mod Loader:** [Fabric](https://fabricmc.net/)
 ---
 
@@ -24,12 +24,12 @@ A Fabric mod that redefines vanilla survival by removing hostile elements while 
 | **Potion brewing** | Brewing stand, potions |
 
 ### ➕ New Additions
-| Feature | Description |
-| :--- | :--- |
+| Feature | Description                                                                                                                                                                          |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **🐄 Gender System** | Animals and villagers now have male and female variants (But the difference in textures has not been made yet). **Right-click** any creature with a **compass** to check its gender. |
-| **💎 Ancient Debris** | Now found in the **Overworld**! Mine it in hot biomes (Desert, Badlands, Savanna) at **Y: -40 to -60**. |
-| **⬆️ Netherite Upgrade** | The Netherite Upgrade Template can be found via **archaeology** in **suspicious sand** inside Desert Pyramids. Use it to upgrade **tools** (pickaxe, axe, shovel, hoe). |
-| **🕷️ String Crafting** | Craft **4 string** from 1 cobweb. |
+| **💎 Ancient Debris** | Now found in the **Overworld**! Mine it in hot biomes (Desert, Badlands, Savanna) at **Y: -40 to -60**.                                                                              |
+| **⬆️ Netherite Upgrade** | The Netherite Upgrade Template can be found via **archaeology** in **suspicious sand** inside Desert Pyramids. Use it to upgrade your diamond tools.                                 |
+| **🕷️ String Crafting** | Craft **4 string** from 1 cobweb.                                                                                                                                                    |
 
 ### 🕊️ Peaceful Mobs
 The following mobs are now completely **neutral and peaceful**:
@@ -53,7 +53,7 @@ The following mobs are now completely **neutral and peaceful**:
 ## ⚙️ Installation
 
 1. Install **Fabric Loader** for Minecraft `26.2`.
-2. Download **Fabric API** `0.154.1+26.2` and place it in your `mods` folder.
+2. Download **Fabric API** and place it in your `mods` folder.
 3. Place this mod's `.jar` file in the same folder.
 4. Launch the game and enjoy!
 
