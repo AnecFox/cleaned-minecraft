@@ -15,13 +15,13 @@ A Fabric mod that redefines vanilla survival by removing hostile elements while 
 ## ✨ What's Changed
 
 ### ❌ Removed Content
-| Category | What's Gone |
-| :--- | :--- |
+| Category | What's Gone                                                      |
+| :--- |:-----------------------------------------------------------------|
 | **Hostile Mobs** | Creepers, zombies, skeletons, and all other aggressive creatures |
-| **Dimension** | The Nether — portals no longer function |
-| **Weapons** | Swords, bow, crossbow, mace |
-| **Enchanting** | Enchanting table, enchanted books, anvil enchanting |
-| **Potion brewing** | Brewing stand, potions |
+| **Dimension** | The Nether — portals no longer function                          |
+| **Weapons** | Swords, spears, bow, crossbow, mace                              |
+| **Enchanting** | Enchanting table, enchanted books, anvil enchanting              |
+| **Potion brewing** | Brewing stand, potions                                           |
 
 ### ➕ New Additions
 | Feature | Description                                                                                                                                                                          |
