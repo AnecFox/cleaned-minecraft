@@ -8,7 +8,8 @@
 		"AnecFox"
 	],
 	"contact": {
-		"email": "anecfox@gmail.com"
+		"email": "anecfox@gmail.com",
+		"sources" : "https://github.com/AnecFox/cleaned-minecraft"
 	},
 	"license": "MIT",
 	"icon": "assets/cleaned-minecraft/icon.png",

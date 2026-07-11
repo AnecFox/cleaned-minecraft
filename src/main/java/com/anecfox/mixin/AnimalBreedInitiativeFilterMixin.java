@@ -13,14 +13,14 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import static com.anecfox.GenderUtilities.TAG_MALE;
 
 @Mixin(BreedGoal.class)
-public class AnimalBreedGoalFilterMixin {
+public class AnimalBreedInitiativeFilterMixin {
 
     @Shadow
     @Final
     protected Animal animal;
 
     @Inject(method = "canUse", at = @At("HEAD"), cancellable = true)
-    private void blockMaleTurtleInitiative(CallbackInfoReturnable<Boolean> cir) {
+    private void blockMaleInitiative(CallbackInfoReturnable<Boolean> cir) {
         if (this.animal instanceof AgeableMob mob) {
             if (mob.entityTags().contains(TAG_MALE)) {
                 cir.setReturnValue(false);

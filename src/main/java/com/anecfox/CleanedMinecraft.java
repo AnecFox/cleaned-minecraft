@@ -23,7 +23,6 @@ import net.minecraft.world.level.storage.loot.entries.LootItem;
 
 import static com.anecfox.GenderUtilities.TAG_FEMALE;
 import static com.anecfox.GenderUtilities.TAG_MALE;
-import static net.minecraft.world.item.Items.BUCKET;
 
 public class CleanedMinecraft implements ModInitializer {
 
@@ -60,16 +59,16 @@ public class CleanedMinecraft implements ModInitializer {
                 return InteractionResult.PASS;
             }
 
-            if (!player.getItemInHand(hand).is(BUCKET)) {
+            if (!(player.getItemInHand(hand).is(Items.BUCKET) || player.getItemInHand(hand).is(Items.BOWL))) {
                 return InteractionResult.PASS;
             }
 
-            if (entity.getType() == EntityTypes.COW || entity.getType() == EntityTypes.GOAT) {
+            if (entity.getType() == EntityTypes.COW || entity.getType() == EntityTypes.GOAT || entity.getType() == EntityTypes.MOOSHROOM) {
                 if (entity.entityTags().contains(TAG_MALE)) {
                     var message = Component.translatable("message.cleaned_minecraft.on_trying_get_milk_from_" + (
-                            entity.getType() == EntityTypes.COW ?
-                                    "bull" :
-                                    "male_goat"));
+                            entity.getType() == EntityTypes.GOAT ?
+                                    "male_goat" :
+                                    "bull"));
                     player.sendOverlayMessage(message);
 
                     if (player instanceof ServerPlayer serverPlayer) {
