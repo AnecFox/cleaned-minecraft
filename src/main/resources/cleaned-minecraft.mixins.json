@@ -7,18 +7,16 @@
     "AnimalBreedInitiativeFilterMixin",
     "AnimalBreedMixin",
     "CamelBreedMixin",
-    "VillagerBreedMixin",
     "ChickenEggBlockingMixin",
     "CreativeMenuTransformerMixin",
-    "IronGolemSpydersAndSilverfishIgnoreMixin",
-    "MobAccessor",
+    "GlobalBabyVillagerOrCamelOrHoglinSpawnRelocatorMixin",
+    "ReplacingBannedBlocksInLevelChunkSectionsMixin",
+    "MobAttackMixin",
     "MobFilterMixin",
+    "PiglinEquipmentMixin",
     "PlayerInventoryFilterMixin",
     "ServerLevelBirthMixin",
-    "SilverfishPeacefulMixin",
-    "SpiderPeacefulMixin",
-    "PolarBearPeacefulMixin",
-    "GlobalBabyVillagerOrCamelSpawnRelocatorMixin"
+    "VillagerBreedMixin"
   ],
   "injectors": {
     "defaultRequire": 1
